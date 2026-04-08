@@ -3,13 +3,13 @@ Title: Download and Visualize Weather Data from Ecowitt API
 Version: 0.1.0
 Authors@R: 
   c(
-    person("Muhammad Ikhwan", "Ramadhan",  email = "ikhwanrmdhn43@gmail.com", role = "aut"),
-    person("Berliana", "Maharani", email = "berlianamhr30@gmail.com",    role = "cre"),
-    person("Atha", "Yudhistira", email = "athayudhistira@apps.ipb.ac.id",  role = "cre"),
-    person("Tio", "Firnanda", email = "tiofirnanda18@gmail.com", role = "cre"),
-    person("Naura Firdausa", "Hikam", email = "naura.firdausa07@gmail.com", role = "cre"),
-    person("Lulu Alya", "Kusumawanti", email = "lulualyakusumawanti@gmail.com", role = "cre"),
-    person("Muhammad Luthful", "Hakim", email = "luthful.hakim2013@gmail.com", role = "cre")
+    person("Muhammad Ikhwan", "Ramadhan",  email = "ikhwanrmdhn43@gmail.com", role = c("aut", "cre")),
+    person("Berliana", "Maharani", email = "berlianamhr30@gmail.com",    role = "aut"),
+    person("Atha", "Yudhistira", email = "athayudhistira@apps.ipb.ac.id",  role = "aut"),
+    person("Tio", "Firnanda", email = "tiofirnanda18@gmail.com", role = "aut"),
+    person("Naura Firdausa", "Hikam", email = "naura.firdausa07@gmail.com", role = "aut"),
+    person("Lulu Alya", "Kusumawanti", email = "lulualyakusumawanti@gmail.com", role = "aut"),
+    person("Muhammad Luthful", "Hakim", email = "luthful.hakim2013@gmail.com", role = "aut")
   )
 Description: 
     Provides a clean interface to the Ecowitt API v3 for retrieving weather 
