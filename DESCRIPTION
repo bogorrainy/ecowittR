@@ -9,7 +9,7 @@ Authors@R:
     person("Tio", "Firnanda", email = "tiofirnanda18@gmail.com", role = "cre"),
     person("Naura Firdausa", "Hikam", email = "naura.firdausa07@gmail.com", role = "cre"),
     person("Lulu Alya", "Kusumawanti", email = "lulualyakusumawanti@gmail.com", role = "cre"),
-    person("Muhammad Luthful", "Hakim", email = "luthful.hakim2013@gmail.com, role = "cre")
+    person("Muhammad Luthful", "Hakim", email = "luthful.hakim2013@gmail.com", role = "cre")
   )
 Description: 
     Provides a clean interface to the Ecowitt API v3 for retrieving weather 
