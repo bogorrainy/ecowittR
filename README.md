@@ -58,7 +58,7 @@ df <- ecowitt_download(
   variables  = c("temp", "humidity", "rainfall")
 )
 
-# 5. Data real-time
+# 5. Real-time data
 ecowitt_realtime()       # all stations
 ecowitt_realtime(1)      # station [1]
 ecowitt_realtime("GFM")  # partial match
