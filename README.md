@@ -10,7 +10,12 @@ R package for downloading and visualizing weather data from **Ecowitt API v3**.
 
 ```r
 # install.packages("devtools")
-devtools::install_github("Ikhwanramadhan/ecowittR")
+devtools::install_github("bogorrainy/ecowittR")
+
+## or
+
+# install.packages("remotes")
+remotes::install_github("bogorrainy/ecowittR)
 ```
 
 ---
