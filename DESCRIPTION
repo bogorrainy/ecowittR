@@ -1,0 +1,37 @@
+Package: ecowittR
+Title: Download and Visualize Weather Data from Ecowitt API
+Version: 0.1.0
+Authors@R: 
+  c(
+    person("Muhammad Ikhwan", "Ramadhan",  email = "ikhwanrmdhn43@gmail.com", role = "aut"),
+    person("Berliana", "Maharani", email = "berlianamhr30@gmail.com",    role = "cre"),
+    person("Atha", "Yudhistira", email = "athayudhistira@apps.ipb.ac.id",  role = "cre"),
+    person("Tio", "Firnanda", email = "tiofirnanda18@gmail.com", role = "cre"),
+    person("Naura Firdausa", "Hikam", email = "naura.firdausa07@gmail.com", role = "cre"),
+    person("Lulu Alya", "Kusumawanti", email = "lulualyakusumawanti@gmail.com", role = "cre"),
+    person("Muhammad Luthful", "Hakim", email = "luthful.hakim2013@gmail.com, role = "cre")
+  )
+Description: 
+    Provides a clean interface to the Ecowitt API v3 for retrieving weather 
+    station data. Functions are included for listing stations, viewing their 
+    locations on an interactive map, and downloading historical data with 
+    flexible aggregation intervals (5-minute, or hourly).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    httr,
+    jsonlite,
+    dplyr,
+    tidyr,
+    lubridate,
+    leaflet,
+    ggplot2,
+    cli,
+    rlang
+Suggests:
+    openxlsx,
+    writexl,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
